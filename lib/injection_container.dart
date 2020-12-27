@@ -12,8 +12,9 @@ import 'features/number_trivia/domain/usecases/get_random_number_trivia.dart';
 import 'features/number_trivia/presentation/bloc/number_trivia_bloc.dart';
 import 'package:http/http.dart' as http;
 
+final sl = GetIt.instance;
+
 Future<void> init() async {
-  final sl = GetIt.instance;
   
   // ----- Features - Number Trivia --------
   
